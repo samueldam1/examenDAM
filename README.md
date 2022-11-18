@@ -23,3 +23,12 @@ git remote add origin https...
 git branch -M main
 
 git push -u origin main
+
+Para cambiar el nombre a un commit primero hacemos un commit con normalidad
+
+git commit
+
+A continuación cambiaremos el nombre con 
+
+git commit --amend --author "Pepito <pepito@gmail.com>"
+
