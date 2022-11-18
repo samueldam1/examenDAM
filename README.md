@@ -32,3 +32,13 @@ A continuación cambiaremos el nombre con
 
 git commit --amend --author "Pepito <pepito@gmail.com>"
 
+```mermaid
+flowchart TD
+A((Inicio)) --> B(int numero = 0)
+B --> C{"while (numero < 10)"}
+C -->|Si| D('introduce un número')
+D --> E["numero = resposta.nextInt()"]
+E --> G('o numero = ' + numero)
+G --> C
+C -->|No| F((Fin))
+```
